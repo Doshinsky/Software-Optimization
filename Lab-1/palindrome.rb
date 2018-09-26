@@ -7,7 +7,6 @@ def palindrome(string)
 end
 
 puts("Enter your word:")
-string = gets
+string = gets.downcase.chomp!
 exit if string.nil?
-string.chomp!
 puts "-Is it a palindrome?\n-" + palindrome(string)
