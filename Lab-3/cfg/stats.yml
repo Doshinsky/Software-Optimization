@@ -1,0 +1,8 @@
+---
+
+- name: "heroMarine"
+  HP: 100
+  MP: 100
+  ST: 0
+  San: 0
+  Cash: 100
